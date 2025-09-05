@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>리디북스</title>
+
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    <link rel="stylesheet" href="./CSS/common.css">
+    <link rel="stylesheet" href="./CSS/index.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header_top">
+                <div class="logo"></div>
+                <div class="h_right">
+                    <div class="search"></div>
+                    <div class="nemu"></div>
+                    <ul>
+                        <li>회원가입</li>
+                        <li>로그인</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header_b">
+                <nav>
+                   <ul>
+                        <li><a href="#"></a>웹툰</li>
+                        <li><a href="#"></a>만화</li>
+                        <li><a href="#"></a>웹소설</li>
+                        <li><a href="#"></a>도서</li>
+                        <li><a href="#"></a>셀렉트</li>
+                    </ul>
+                </nav>
+                <ul class="category">
+                    <li><a href="#"></a>전체 카테고리</li>
+                    <li><a href="#"></a>캐시충전</li>
+                    </ul>
+            </div>
+        </div>
+    </header>
+
+    <div id="slider">
+         <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      <div class="swiper-slide">Slide 4</div>
+      <div class="swiper-slide">Slide 5</div>
+      <div class="swiper-slide">Slide 6</div>
+      <div class="swiper-slide">Slide 7</div>
+      <div class="swiper-slide">Slide 8</div>
+      <div class="swiper-slide">Slide 9</div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+    </div>
+
+
+    <footer>
+
+        <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+        <div class="wrap">
+            <div class="nemu2">
+                <ul>
+                    <li>고객센터</li>
+                    <li>공지사항</li>
+                </ul>
+            </div>
+            <div id="nemu3">
+                <h4>서비스</h4>
+                <ul>
+                    <li>제휴카드</li>
+                    <li>뷰어 다운로드</li>
+                    <li>CP사이트</li>
+                    <li>리디바탕</li>
+                </ul>
+            </div>
+            <div id="nemu4">
+                <h4>기타문의</h4>
+                <ul>
+                    <li>콘텐츠 제공문의</li>
+                    <li>사업 제휴 문의</li>
+                </ul>
+            </div>
+            <div id="nemu5">
+                <h4>회사</h4>
+                <ul>
+                    <li>회사소개</li>
+                    <li>인재채용</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
