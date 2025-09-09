@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>리디북스</title>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
+    <script src="https://kit.fontawesome.com/c091776596.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="./CSS/common.css">
     <link rel="stylesheet" href="./CSS/index.css">
@@ -17,55 +20,98 @@
     <header>
         <div class="container">
             <div class="header_top">
-                <div class="logo"></div>
+                <div class="logo">
+                    <svg viewBox="0 0 66 25" fill="none" xmlns="http://www.w3.org/2000/svg" class="fig-1so0vu4"><path d="M20.29 8.281v.063c0 3.306-1.612 5.8-4.546 7.08l5.608 8.155h-6.8l-4.778-7.098H5.787v7.103H0V.52h11.444c5.457 0 8.845 2.974 8.845 7.76zm-9.167 3.454c2.076 0 3.317-1.45 3.317-3.138v-.062c0-2.258-1.853-3.17-3.411-3.17H5.787v6.37h5.336zM24.37.52h5.786v23.063h-5.786V.52zm20.668 0H34.39v23.063h10.65c7.117 0 10.73-4.85 10.73-11.53v-.061C55.77 5.343 52.156.52 45.04.52zm4.724 11.592c0 3.697-1.63 6.448-5.384 6.448h-4.202V5.54h4.202c3.755 0 5.385 2.774 5.385 6.511v.063zM58.94.52h5.786v23.063H58.94V.52z" fill="#1E9EFF"></path></svg>
+                </div>
                 <div class="h_right">
-                    <div class="search"></div>
-                    <div class="nemu"></div>
-                    <ul>
-                        <li>회원가입</li>
-                        <li>로그인</li>
-                    </ul>
+                    <div class="search">                        
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text">
+                    </div>
+                    <div class="nemu">
+                        <ul>
+                            <li>회원가입</li>
+                            <li>로그인</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="header_b">
                 <nav>
                    <ul>
-                        <li><a href="#"></a>웹툰</li>
-                        <li><a href="#"></a>만화</li>
-                        <li><a href="#"></a>웹소설</li>
-                        <li><a href="#"></a>도서</li>
-                        <li><a href="#"></a>셀렉트</li>
+                        <li><a href="https://ridibooks.com/webtoon/recommendation"></a>웹툰</li>
+                        <li><a href="https://ridibooks.com/comics/ebook"></a>만화</li>
+                        <li><a href="https://ridibooks.com/romance/webnovel"></a>웹소설</li>
+                        <li><a href="https://ridibooks.com/ebook/recommendation"></a>도서</li>
+                        <li><a href="https://select.ridibooks.com/home"></a>셀렉트</li>
                     </ul>
                 </nav>
                 <ul class="category">
+                    <i class="fa-solid fa-bars"></i>
                     <li><a href="#"></a>전체 카테고리</li>
+                    <i class="fa-solid fa-copyright"></i>
                     <li><a href="#"></a>캐시충전</li>
                     </ul>
             </div>
         </div>
     </header>
 
+
     <div id="slider">
+        <nav>
+        <ul>
+            <li><a href="https://ridibooks.com/ebook/recommendation"></a>추천</li>
+            <li><a href="https://ridibooks.com/ebook/event"></a>기획전</li>
+            <li><a href="https://ridibooks.com/ebook/view-category-100"></a>소설</li>
+            <li><a href="https://ridibooks.com/ebook/view-category-400"></a>인문/사회/역사</li>
+            <li><a href="https://ridibooks.com/ebook/view-category-200"></a>경영/경제</li>
+            <li><a href="https://ridibooks.com/ebook/view-category-110"></a>에세이/시</li>
+            <li><a href="https://ridibooks.com/ebook/view-category-300"></a>자기계발</li>
+        </ul>
+    </nav>
          <!-- Swiper -->
-  <div class="swiper mySwiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">Slide 1</div>
-      <div class="swiper-slide">Slide 2</div>
-      <div class="swiper-slide">Slide 3</div>
-      <div class="swiper-slide">Slide 4</div>
-      <div class="swiper-slide">Slide 5</div>
-      <div class="swiper-slide">Slide 6</div>
-      <div class="swiper-slide">Slide 7</div>
-      <div class="swiper-slide">Slide 8</div>
-      <div class="swiper-slide">Slide 9</div>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+        </div>
     </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-  </div>
+    
+    <div class="box">
+        <ul>
+            <li><a href="#"></a>신간</li>
+            <li><a href="#"></a>북스 베스트</li>
+            <li><a href="#"></a>단독 선출간</li>
+            <li><a href="#"></a>이벤트</li>
+            <li><a href="#"></a>이달의 쿠폰</li>
+            <li><a href="#"></a>신작 캘린더</li>
+            <li><a href="#"></a>혜택 모아봄</li>
+        </ul>
     </div>
 
-
-    <footer>
+        <div class="new">
+        <!-- Swiper -->
+        <div class="swiper new_item">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div>
+            </div> 
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>           
+        </div>
+    </div>
 
         <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -78,9 +124,20 @@
         prevEl: ".swiper-button-prev",
       },
     });
-  </script>
 
-        <div class="wrap">
+            // new
+        var swiper = new Swiper(".new_item", {
+            slidesPerView: 6,
+            spaceBetween: 10,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },            
+        });
+  </script>
+    <footer>
+
+        <div class="container">
             <div class="nemu2">
                 <ul>
                     <li>고객센터</li>
@@ -109,8 +166,9 @@
                     <li>회사소개</li>
                     <li>인재채용</li>
                 </ul>
-            </div>
         </div>
+
+
     </footer>
     
 </body>
