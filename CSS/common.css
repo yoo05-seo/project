@@ -65,7 +65,7 @@ table {
 }
 
 *{margin: 0; padding: 0; box-sizing: border-box;}
-ul,ol{list-style: none;}
+ul,ol,li{list-style: none;}
 a{text-decoration: none; color: #333;}
 
 body {font-family:'Pretendard' ;}
@@ -91,16 +91,21 @@ header{width:100%; height: 115px;}
 
 #slider nav ul {width: 570px; height: 40px; display: flex; justify-content: space-between; padding: 15px;}
 
-.box {width: 100%; height: 200px; background-color: blue;}
-.box ul { display:flex;}
-
+.box {width: 1120px; height: 180px;margin: 0 auto;}
+.box ul {display:flex; justify-content: space-between;padding: 6%;margin: 0 40px 40px 20px;object-fit: contain; align-items: center;}
+.box li p {text-align: center;}
+.box img{width: 70px; height: 70px;}
 
 
 /* 풋터 */
 
-footer{width: 100%; height:350px ; background-color: orange;}
-footer .container{ display: flex; justify-content: space-between; align-items: center;padding: 40px 0;}
-
-
+footer{width: 100%; height:350px ;display: flex; margin-top: 20px;}
+.footbox1{width: 1120px;margin: 0 auto;display: flex; justify-content: space-between;}
+.fbox1 {width: 700px; height: 100%; display: flex;}
+.fbox2 {width: 400px; height: 100%; display: flex; justify-content: center; margin-top: 50px;}
+.fbox2 a {height: 40px; width: 40px; margin-right: 10px; border:1px solid #444b; border-radius: 50px; padding: 7px 7px; opacity: 60%;}
+.fmenu{margin-top: 30px; margin-right: 10px; width: 150px;}
+.fmenu li {font-size: 15px; line-height: 30px;}
+.title {font-weight: 700;}
 
 
