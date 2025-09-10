@@ -82,7 +82,7 @@ header{width:100%; height: 115px;}
 .search i {width: 26px; padding: 3%; color: #787878;}
 .nemu {width: 200px; height: 100%; display: flex; position: relative; left: 20px;  margin-top: 8px;}
 .nemu li{display: inline; margin-top: 5px; color: #787878;}
-.nemu li:not(:last-child)::after{content: " · ";font-size: 10px; padding: 0 20px;}
+.nemu li:not(:last-child)::after{content: " · ";font-size: 5px; padding: 0 20px;}
 .header_b {width: 100%; height: 50%; display: flex; justify-content: space-between; align-items: center;}
 .header_b nav {width: 300px; height: 25px;}
 .header_b nav ul {display: flex; justify-content: space-between;}
@@ -91,10 +91,20 @@ header{width:100%; height: 115px;}
 
 #slider nav ul {width: 570px; height: 40px; display: flex; justify-content: space-between; padding: 15px;}
 
-.box {width: 1120px; height: 180px;margin: 0 auto;}
-.box ul {display:flex; justify-content: center; gap: 20px;padding: 6%;margin: 0 40px 40px 20px;object-fit: contain; align-items: center;}
+.box {width: 1120px; margin: 0 auto;}
+.box ul {display:flex; justify-content: center; gap: 20px; margin: 50px 50px 50px 50px; object-fit: contain; align-items: center;}
 .box li p {text-align: center;}
 .box img{width: 70px; height: 70px;}
+
+
+.font {font-weight: 700%; font-size: 25px; margin: 0 0 20px;}
+
+
+/* 섹션 */
+.section {width: 100%; height: 300px;}
+.fsection {width: 1120px; margin: 0 auto; display: flex;}
+
+
 
 
 /* 풋터 */
