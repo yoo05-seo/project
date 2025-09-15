@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,20 +8,21 @@
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
+
     <script src="https://kit.fontawesome.com/c091776596.js" crossorigin="anonymous"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <link rel="stylesheet" href="./CSS/common.css">
-    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="./CSS/common1.css">
+    <link rel="stylesheet" href="./CSS/index1.css">
 </head>
-
 <body>
 
     <header>
         <div class="container">
             <div class="header_top">
                 <div class="logo">
-                    <svg viewBox="0 0 66 25" fill="none" xmlns="http://www.w3.org/2000/svg" class="fig-1so0vu4">
+                                        <svg viewBox="0 0 66 25" fill="none" xmlns="http://www.w3.org/2000/svg" class="fig-1so0vu4">
                         <path
                             d="M20.29 8.281v.063c0 3.306-1.612 5.8-4.546 7.08l5.608 8.155h-6.8l-4.778-7.098H5.787v7.103H0V.52h11.444c5.457 0 8.845 2.974 8.845 7.76zm-9.167 3.454c2.076 0 3.317-1.45 3.317-3.138v-.062c0-2.258-1.853-3.17-3.411-3.17H5.787v6.37h5.336zM24.37.52h5.786v23.063h-5.786V.52zm20.668 0H34.39v23.063h10.65c7.117 0 10.73-4.85 10.73-11.53v-.061C55.77 5.343 52.156.52 45.04.52zm4.724 11.592c0 3.697-1.63 6.448-5.384 6.448h-4.202V5.54h4.202c3.755 0 5.385 2.774 5.385 6.511v.063zM58.94.52h5.786v23.063H58.94V.52z"
                             fill="#1E9EFF"></path>
@@ -51,35 +51,50 @@
                         <li><a href="#">셀렉트</a></li>
                     </ul>
                 </nav>
-                <ul class="category">
-                    <i class="fa-solid fa-bars"></i>
-                    <li><a href="#">전체 카테고리</a></li>
-                    <i class="fa-solid fa-copyright"></i>
-                    <li><a href="#">캐시충전</a></li>
-                </ul>
+                <div class="header_r">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-bars"></i>
+                                전체 카테고리
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-copyright"></i>
+                                캐시충전
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
 
+    <nav class="menu1">
+        <ul>
+            <li><a href="#">추천</a></li>
+            <li><a href="#">기획전</a></li>
+            <li><a href="#">소설</a></li>
+            <li><a href="#">인문/사회/역사</a></li>
+            <li><a href="#">경영/경제</a></li>
+            <li><a href="#">에세이/시</a></li>
+            <li><a href="#">자기계발</a></li>
+        </ul>
+    </nav>
 
-    <div id="slider">
-        <nav>
-            <ul>
-                <li><a href="#">추천</a></li>
-                <li><a href="#">기획전</a></li>
-                <li><a href="#">소설</a></li>
-                <li><a href="#">인문/사회/역사</a></li>
-                <li><a href="#">경영/경제</a></li>
-                <li><a href="#">에세이/시</a></li>
-                <li><a href="#">자기계발</a></li>
-            </ul>
-        </nav>
-        <!-- Swiper -->
+    <div class="slider">
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">Slide 1</div>
                 <div class="swiper-slide">Slide 2</div>
                 <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div>
             </div>
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
@@ -95,9 +110,11 @@
             },
         });
     </script>
+    </div>
 
-    <div class="box">
-        <ul>
+    <section class="section">
+        <div class="box">
+            <ul>
             <li><a href="#"><img src="https://active.ridibooks.com/quick-menu/light/new.d0c590b8b2fe4f364eadecb600491294.png" alt=""><p>신간</p>
             </a></li>
             <li><a href="#"><img src="https://active.ridibooks.com/quick-menu/light/bestseller.d954cea8b85b182e7cfbffdb9519bb07.png"alt="">
@@ -113,56 +130,11 @@
             <li><a href="#"><img src="https://active.ridibooks.com/quick-menu/light/promotion_map.3199d6755aef129b824783b255e3f1a1.png"alt="">
                     <p>혜택 모아봄</p></a></li>
         </ul>
-    </div>
-
-
-    <!-- Swiper -->
-    <div class="swap" style="margin-bottom: 100px;">
-        <h4 class="font">지금 많이 읽고 있는 작품</h4>
-        <div class="swiper mySwiper2">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">Slide 1</div>
-                <div class="swiper-slide">Slide 2</div>
-                <div class="swiper-slide">Slide 3</div>
-                <div class="swiper-slide">Slide 4</div>
-                <div class="swiper-slide">Slide 5</div>
-                <div class="swiper-slide">Slide 6</div>
-                <div class="swiper-slide">Slide 7</div>
-                <div class="swiper-slide">Slide 8</div>
-                <div class="swiper-slide">Slide 9</div>
-                <div class="swiper-slide">Slide 1</div>
-                <div class="swiper-slide">Slide 2</div>
-                <div class="swiper-slide">Slide 3</div>
-                <div class="swiper-slide">Slide 4</div>
-                <div class="swiper-slide">Slide 5</div>
-                <div class="swiper-slide">Slide 6</div>
-                <div class="swiper-slide">Slide 7</div>
-                <div class="swiper-slide">Slide 8</div>
-                <div class="swiper-slide">Slide 9</div>
-            </div>
-            <div class="swiper-pagination"></div>
         </div>
-    </div>
-
-    <script>
-        var swiper2 = new Swiper(".mySwiper2", {
-            slidesPerView: 3,
-            grid: {
-                rows: 3,
-            },
-            spaceBetween: 30,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-        });
-    </script>
-
-
-
-    <div class="fsection">
-        <div class="new" style="margin-top: 30px;">
-            <!-- Swiper -->
+    </section>
+    <section class="section1">
+        <div class="box1">
+            <h4 class="font">이런 작품 찾으세요?</h4>
             <div class="swiper new_item">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">Slide 1</div>
@@ -192,10 +164,360 @@
             },
         });
     </script>
+    
+    </section>
+
+
+    <section class="section2">
+        <div class="box2">
+            <h4 class="font">지금 많이 읽고 있는 작품</h4>
+            <div class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                    <div class="swiper-slide">Slide 7</div>
+                    <div class="swiper-slide">Slide 8</div>
+                    <div class="swiper-slide">Slide 9</div>
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                    <div class="swiper-slide">Slide 7</div>
+                    <div class="swiper-slide">Slide 8</div>
+                    <div class="swiper-slide">Slide 9</div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+        <script>
+            var test_slide = new Swiper(".mySwiper2", {
+                slidesPerView: 3,
+                grid: {
+                    rows: 3,
+                    fill: 'row'
+                },
+                // slidesPerGroup: 9,
+                spaceBetween: 30,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+        </script>
 
     </section>
 
-    <hr>
+
+
+    <section class="section3">
+            <div class="box3">
+                <h4 class="font">오늘, 리디의 발견</h4>
+            <div class="swiper new_item1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                    <div class="swiper-slide">Slide 7</div>
+                    <div class="swiper-slide">Slide 8</div>
+                    <div class="swiper-slide">Slide 9</div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        var swiper = new Swiper(".new_item1", {
+            slidesPerView: 6,
+            spaceBetween: 10,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+    </section>
+
+
+    <section class="section4">
+        <div class="box4">
+            <h4 class="font">MD's Pick</h4>
+            <div class="swiper new_item2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                    <div class="swiper-slide">Slide 7</div>
+                    <div class="swiper-slide">Slide 8</div>
+                    <div class="swiper-slide">Slide 9</div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        var swiper = new Swiper(".new_item2", {
+            slidesPerView: 3,
+            spaceBetween: 10,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+        
+
+    </section>
+
+
+    <section class="section5">
+            <div class="box5">
+                <h4 class="font">베스트</h4>
+                <div class="swiper mySwiper3">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">Slide 1</div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        <div class="swiper-slide">Slide 4</div>
+                        <div class="swiper-slide">Slide 5</div>
+                        <div class="swiper-slide">Slide 6</div>
+                        <div class="swiper-slide">Slide 7</div>
+                        <div class="swiper-slide">Slide 8</div>
+                        <div class="swiper-slide">Slide 9</div>
+                        <div class="swiper-slide">Slide 1</div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        <div class="swiper-slide">Slide 4</div>
+                        <div class="swiper-slide">Slide 5</div>
+                        <div class="swiper-slide">Slide 6</div>
+                        <div class="swiper-slide">Slide 7</div>
+                        <div class="swiper-slide">Slide 8</div>
+                        <div class="swiper-slide">Slide 9</div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    </div>
+            </div>
+
+        <script>
+            var test_slide = new Swiper(".mySwiper3", {
+                slidesPerView: 3,
+                grid: {
+                    rows: 3,
+                    fill: 'row'
+                },
+                // slidesPerGroup: 9,
+                spaceBetween: 30,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+        </script>
+
+    </section>
+
+
+    <section class="section6">
+            <div class="box6">
+                <h4 class="font">지금, 리디에서만! 선 출간 신작</h4>
+                <div class="swiper new_item3">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">Slide 1</div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        <div class="swiper-slide">Slide 4</div>
+                        <div class="swiper-slide">Slide 5</div>
+                        <div class="swiper-slide">Slide 6</div>
+                        <div class="swiper-slide">Slide 7</div>
+                        <div class="swiper-slide">Slide 8</div>
+                        <div class="swiper-slide">Slide 9</div>
+                    </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+    </div>
+
+    <script>
+        var swiper = new Swiper(".new_item3", {
+            slidesPerView: 6,
+            spaceBetween: 10,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+        
+    </section>
+
+
+    <section class="section7">
+            <div class="box7">
+                <h4 class="font">새로 나온 작품</h4>
+                <div class="swiper new_item4">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">Slide 1</div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        <div class="swiper-slide">Slide 4</div>
+                        <div class="swiper-slide">Slide 5</div>
+                        <div class="swiper-slide">Slide 6</div>
+                        <div class="swiper-slide">Slide 7</div>
+                        <div class="swiper-slide">Slide 8</div>
+                        <div class="swiper-slide">Slide 9</div>
+                    </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+
+    <script>
+        var swiper = new Swiper(".new_item4", {
+            slidesPerView: 6,
+            spaceBetween: 10,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+        <div class="box7"></div>
+    </section>
+
+
+    <section class="section8">
+        <div class="box8"></div>
+    </section>
+
+
+    <section class="section9">
+            <div class="box9">
+                <h4 class="font">이주의 셀렉트 인기도서 TOP 10</h4>
+                <div class="swiper new_item5">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">Slide 1</div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        <div class="swiper-slide">Slide 4</div>
+                        <div class="swiper-slide">Slide 5</div>
+                        <div class="swiper-slide">Slide 6</div>
+                        <div class="swiper-slide">Slide 7</div>
+                        <div class="swiper-slide">Slide 8</div>
+                        <div class="swiper-slide">Slide 9</div>
+                    </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+
+    <script>
+        var swiper = new Swiper(".new_item5", {
+            slidesPerView: 6,
+            spaceBetween: 10,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+    </section>
+
+
+    <section class="section10">
+         <div class="box10">
+            <h4 class="font">이벤트</h4>
+            <div class="swiper new_item2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                    <div class="swiper-slide">Slide 7</div>
+                    <div class="swiper-slide">Slide 8</div>
+                    <div class="swiper-slide">Slide 9</div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        var swiper = new Swiper(".new_item2", {
+            slidesPerView: 3,
+            spaceBetween: 10,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+    
+    </section>
+
+    <section class="section11">
+            <div class="box11">
+                <h4 class="font">지금, 리디에서만 볼 수 있는 도서</h4>
+                <div class="swiper new_item6">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">Slide 1</div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        <div class="swiper-slide">Slide 4</div>
+                        <div class="swiper-slide">Slide 5</div>
+                        <div class="swiper-slide">Slide 6</div>
+                        <div class="swiper-slide">Slide 7</div>
+                        <div class="swiper-slide">Slide 8</div>
+                        <div class="swiper-slide">Slide 9</div>
+                    </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+
+    <script>
+        var swiper = new Swiper(".new_item6", {
+            slidesPerView: 6,
+            spaceBetween: 10,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+        <div class="box11"></div>
+    </section>
+
+
+
+
 
     <footer>
         <div class="footbox1">
@@ -236,9 +558,7 @@
                 <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.371 5h2.411s1.113 2.656 3.718 2.911l-.46 2.35s-1.838-.052-3.268-1.533v5.822s0 1.226-.664 2.247c0 0-1.073 1.941-3.473 2.145 0 0-1.736.205-3.268-.919 0 0-1.635-1.021-1.839-3.268 0 0-.357-2.094 1.481-3.83 0 0 1.226-1.43 3.984-1.226v2.4h-.767s-1.532-.102-2.144 1.43c0 0-.562 1.48.663 2.502 0 0 .92.817 2.146.409 0 0 1.174-.307 1.43-1.634 0 0 .05-.154.05-.766V5z"fill="#787878"></path></svg></a>
             </div>
         </div>
-
     </footer>
-
+    
 </body>
-
 </html>
