@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+
+
+
+/*슬라이더*/
+.slider {width: 1170px; height: 400px; margin: 0 auto;}
+.menu1 {width: 1170px; height: 60px; margin: 20px auto 0;}
+.menu1 ul {display: flex; align-items: center; gap: 20px;}
+
+#slider {width: 1120px;height: 420px;margin: 0 auto;}
+.swiper {width: 100%;height: 100%;}
+.swiper-slide {text-align: center;font-size: 18px;background: #444;display: flex;justify-content: center;align-items: center;}
+.swiper-slide img {display: block;width: 100%;height: 100%;object-fit: cover;}
+
+
+
+/* 섹션 */
+
+.font {font-weight: 700%; font-size: 25px; margin-bottom: 10px;}
+
+
+.section {width: 1170px; height: 94px; margin: 0 auto;}
+.box {width: 1110px; height: 94px; margin: 0 auto;}
+.box ul {display:flex; justify-content: center; gap: 20px; object-fit: contain; align-items: center; margin-top: 10px; margin-bottom: 10px;}
+.box li p {text-align: center;}
+.box img{width: 70px; height: 70px;}
+
+.section1 {width: 1170px; height: 403px; margin: 0 auto;}
+.section1 .swiper-slide {height: 350px;}
+
+
+.section2 {width: 1170px; height: 438px; background-color: aqua; margin: 0 auto;}
+.box2 {background-color: #fff;width: 1170px; height: 400px;}
+
+
+
+.section3 {width: 1170px; height: 359px; margin: 0 auto;}
+.section3 .swiper-slide {height: 300px;}
+
+.section4 {width: 1170px; height: 274px; margin: 0 auto;}
+.box4 {margin-top: 50px;}
+.box4 .swiper-slide {height: 150px;}
+
+
+
+.section5 {width: 1170px; height: 438px; margin: 0 auto;}
+.box5 {background-color: #fff; margin-top: 10px; width: 1170px; height: 430px;}
+
+
+.section6 {width: 1170px; height: 403px; margin: 0 auto;}
+.box6 {margin-top: 50px;}
+.section6 .swiper-slide {height: 350px;}
+
+.section7 {width: 1170px; height: 403px; margin: 0 auto;}
+.box7 {margin-top: 30px;}
+.section7 .swiper-slide {height: 350px;}
+
+.section8 {width: 1170px; height: 512px; background-color: yellowgreen; margin: 0 auto;}
+
+.section9 {width: 1170px; height: 403px; margin: 0 auto;}
+.box9 {margin-top: 30px;}
+.section9 .swiper-slide {height: 350px;}
+
+.section10 {width: 1170px; height: 168px; margin: 0 auto;}
+.box10 .swiper-slide {height: 150px;}
+
+.section11 {width: 1170px; height: 403px; margin: 0 auto;}
+.box11 {margin-top: 30px;}
+.section11 .swiper-slide {height: 400px;}
