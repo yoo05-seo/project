@@ -31,21 +31,22 @@
 
 
 .section2 {width: 1170px; height: 438px; background-color: aqua; margin: 0 auto;}
-.box2 {background-color: #fff;width: 1170px; height: 400px;}
+.box2 {background-color: #fff;width: 1170px; height: 400px; margin-top: 20px;}
 
 
 
 .section3 {width: 1170px; height: 359px; margin: 0 auto;}
 .section3 .swiper-slide {height: 300px;}
+.box3 {margin-top: 20px; margin-bottom: 20px;}
 
 .section4 {width: 1170px; height: 274px; margin: 0 auto;}
-.box4 {margin-top: 50px;}
+.box4 {margin-top: 10px;}
 .box4 .swiper-slide {height: 150px;}
 
 
 
 .section5 {width: 1170px; height: 438px; margin: 0 auto;}
-.box5 {background-color: #fff; margin-top: 10px; width: 1170px; height: 430px;}
+.box5 {background-color: #fff; width: 1170px; height: 430px;}
 
 
 .section6 {width: 1170px; height: 403px; margin: 0 auto;}
@@ -53,13 +54,15 @@
 .section6 .swiper-slide {height: 350px;}
 
 .section7 {width: 1170px; height: 403px; margin: 0 auto;}
-.box7 {margin-top: 30px;}
+.box7 {margin-top: 10px;}
 .section7 .swiper-slide {height: 350px;}
 
-.section8 {width: 1170px; height: 512px; background-color: yellowgreen; margin: 0 auto;}
+.section8 {width: 1170px; height: 512px; margin: 0 auto;}
+.section8 .swiper-slide {height: 500px;}
+.box8 {margin-top: 20px;}
 
 .section9 {width: 1170px; height: 403px; margin: 0 auto;}
-.box9 {margin-top: 30px;}
+.box9 {margin-top: 40px;}
 .section9 .swiper-slide {height: 350px;}
 
 .section10 {width: 1170px; height: 168px; margin: 0 auto;}
