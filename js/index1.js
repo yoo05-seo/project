@@ -28,12 +28,13 @@ async function bookData() {
             { query: '도서', sectionId: 'a' },
             { query: '만화', sectionId: 'b' },
             { query: '웹툰', sectionId: 'c' },
-            { query: 'SF', sectionId: 'd' },
+            { query: '책', sectionId: 'd' },
             { query: '자바스크립트', sectionId: 'e' },
             { query: '에세이', sectionId: 'f' },
             { query: 'NEW', sectionId: 'g' },
             { query: '소설', sectionId: 'h' },
-            { query: 'BL', sectionId: 'i' },
+            { query: '인기', sectionId: 'i' },
+            { query: 'BL', sectionId: 'j'}
         ];
 
         for (const { query, sectionId } of querise ){
