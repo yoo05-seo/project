@@ -21,7 +21,7 @@
 .font {font-weight: 700%; font-size: 25px; margin-bottom: 10px;}
 
 
-.section {width: 1170px; height: 100px; margin: 0 auto;}
+.section {position: relative; width: 1170px; height: 100px; margin: 0 auto;}
 .box {width: 1110px; height: 94px; margin: 0 auto;}
 .box ul {display:flex; justify-content: center; gap: 20px; object-fit: contain; align-items: center; margin-top: 10px; margin-bottom: 10px;}
 .box li p {text-align: center;}
