@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="웹툰, 웹소설, 전자책의 모든 것 - 리디북스">
+    <meta name="keywords" content="리디북스, 웹툰, 웹소설, 전자책, 베스트셀러, 추천도서">
+    <meta name="author" content="RIDI Corp.">
     <title>리디북스</title>
 
     <!-- Link Swiper's CSS -->
@@ -15,6 +18,7 @@
 
     <link rel="stylesheet" href="./CSS/common1.css">
     <link rel="stylesheet" href="./CSS/index1.css">
+    <script src="./js/index1.js"></script>
 </head>
 <body>
 
@@ -31,7 +35,7 @@
                 <div class="h_right">
                     <div class="search">
                         <i class="fa-solid fa-magnifying-glass"></i>
-                        <input type="text">
+                        <input type="text" placeholder="책 제목, 작가 검색" aria-label="도서 검색">
                     </div>
                     <div class="menu">
                         <ul>
@@ -88,15 +92,25 @@
     <div class="slider">
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">Slide 1</div>
-                <div class="swiper-slide">Slide 2</div>
-                <div class="swiper-slide">Slide 3</div>
-                <div class="swiper-slide">Slide 4</div>
-                <div class="swiper-slide">Slide 5</div>
-                <div class="swiper-slide">Slide 6</div>
-                <div class="swiper-slide">Slide 7</div>
-                <div class="swiper-slide">Slide 8</div>
-                <div class="swiper-slide">Slide 9</div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="" alt=""></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="" alt=""></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href=""><img src="" alt=""></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="" alt=""></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="" alt=""></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="" alt=""></a>
+                </div>
+                
             </div>
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
@@ -112,57 +126,76 @@
             },
         });
     </script>
-    </div>
 
     <section class="section">
         <div class="box">
             <ul>
-            <li><a href="#"><img src="https://active.ridibooks.com/quick-menu/light/new.d0c590b8b2fe4f364eadecb600491294.png" alt=""><p>신간</p>
+            <li><a href="#"><img src="https://active.ridibooks.com/quick-menu/light/new.d0c590b8b2fe4f364eadecb600491294.png" alt="신간"><p>신간</p>
             </a></li>
-            <li><a href="#"><img src="https://active.ridibooks.com/quick-menu/light/bestseller.d954cea8b85b182e7cfbffdb9519bb07.png"alt="">
+            <li><a href="#"><img src="https://active.ridibooks.com/quick-menu/light/bestseller.d954cea8b85b182e7cfbffdb9519bb07.png"alt="북스이벤트">
                 <p>북스이벤트</p></a></li>
-            <li><a href="#"><img src="https://active.ridibooks.com/quick-menu/light/only.7d71bce5c941b4fcb325ffac8ae50410.png"alt="">
+            <li><a href="#"><img src="https://active.ridibooks.com/quick-menu/light/only.7d71bce5c941b4fcb325ffac8ae50410.png"alt="단독 선출간">
                     <p>단독 선출간</p></a></li>
-            <li><a href="#"><img src="https://active.ridibooks.com/quick-menu/light/event.895183ca4353ae354bca3f5e896cec55.png"alt="">
+            <li><a href="#"><img src="https://active.ridibooks.com/quick-menu/light/event.895183ca4353ae354bca3f5e896cec55.png"alt="이벤트">
                     <p>이벤트</p></a></li>
-            <li><a href="#"><img src="https://active.ridibooks.com/quick-menu/light/coupon.3934aadf872c47ffcc59586ce12c6c34.png"alt="">
+            <li><a href="#"><img src="https://active.ridibooks.com/quick-menu/light/coupon.3934aadf872c47ffcc59586ce12c6c34.png"alt="이달의 쿠폰">
                     <p>이달의 쿠폰</p></a></li>
-            <li><a href="#"><img src="https://active.ridibooks.com/quick-menu/light/calendar.6105b633dbfdf007ad643c22b28fa966.png"alt="">
+            <li><a href="#"><img src="https://active.ridibooks.com/quick-menu/light/calendar.6105b633dbfdf007ad643c22b28fa966.png"alt="신작 캘린더">
                     <p>신작 캘린더</p></a></li>
-            <li><a href="#"><img src="https://active.ridibooks.com/quick-menu/light/promotion_map.3199d6755aef129b824783b255e3f1a1.png"alt="">
+            <li><a href="#"><img src="https://active.ridibooks.com/quick-menu/light/promotion_map.3199d6755aef129b824783b255e3f1a1.png"alt="혜택 모아봄">
                     <p>혜택 모아봄</p></a></li>
         </ul>
         </div>
     </section>
+
     <section class="section1">
         <div class="box1">
             <h4 class="font">이런 작품 찾으세요?</h4>
             <div class="swiper new_item">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">Slide 1</div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    <div class="swiper-slide">Slide 4</div>
-                    <div class="swiper-slide">Slide 5</div>
-                    <div class="swiper-slide">Slide 6</div>
-                    <div class="swiper-slide">Slide 7</div>
-                    <div class="swiper-slide">Slide 8</div>
-                    <div class="swiper-slide">Slide 9</div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next swiper1-next"></div>
+                <div class="swiper-button-prev swiper1-prev"></div>
             </div>
         </div>
 
-    </div>
-
     <script>
-        var swiper = new Swiper(".new_item", {
+        var swiper1 = new Swiper(".new_item", {
             slidesPerView: 6,
             spaceBetween: 10,
             navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
+                nextEl: ".swiper1-next",
+                prevEl: ".swiper1-prev",
             },
         });
     </script>
@@ -175,31 +208,68 @@
             <h4 class="font">지금 많이 읽고 있는 작품</h4>
             <div class="swiper mySwiper2">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">Slide 1</div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    <div class="swiper-slide">Slide 4</div>
-                    <div class="swiper-slide">Slide 5</div>
-                    <div class="swiper-slide">Slide 6</div>
-                    <div class="swiper-slide">Slide 7</div>
-                    <div class="swiper-slide">Slide 8</div>
-                    <div class="swiper-slide">Slide 9</div>
-                    <div class="swiper-slide">Slide 1</div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    <div class="swiper-slide">Slide 4</div>
-                    <div class="swiper-slide">Slide 5</div>
-                    <div class="swiper-slide">Slide 6</div>
-                    <div class="swiper-slide">Slide 7</div>
-                    <div class="swiper-slide">Slide 8</div>
-                    <div class="swiper-slide">Slide 9</div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
         </div>
 
         <script>
-            var test_slide = new Swiper(".mySwiper2", {
+            var swiper2 = new Swiper(".mySwiper2", {
                 slidesPerView: 3,
                 grid: {
                     rows: 3,
@@ -219,34 +289,47 @@
 
 
     <section class="section3">
-            <div class="box3">
-                <h4 class="font">오늘, 리디의 발견</h4>
+        <div class="box3">
+            <h4 class="font">오늘, 리디의 발견</h4>
             <div class="swiper new_item1">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">Slide 1</div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    <div class="swiper-slide">Slide 4</div>
-                    <div class="swiper-slide">Slide 5</div>
-                    <div class="swiper-slide">Slide 6</div>
-                    <div class="swiper-slide">Slide 7</div>
-                    <div class="swiper-slide">Slide 8</div>
-                    <div class="swiper-slide">Slide 9</div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next swiper2-next"></div>
+                <div class="swiper-button-prev swiper2-prev"></div>
             </div>
         </div>
 
-    </div>
-
     <script>
-        var swiper = new Swiper(".new_item1", {
+        var swiper3 = new Swiper(".new_item1", {
             slidesPerView: 6,
             spaceBetween: 10,
             navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
+                nextEl: ".swiper2-next",
+                prevEl: ".swiper2-prev",
             },
         });
     </script>
@@ -268,20 +351,19 @@
                     <div class="swiper-slide">Slide 8</div>
                     <div class="swiper-slide">Slide 9</div>
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next swiper3-next"></div>
+                <div class="swiper-button-prev swiper3-prev"></div>
             </div>
         </div>
 
-    </div>
 
     <script>
-        var swiper = new Swiper(".new_item2", {
+        var swiper4 = new Swiper(".new_item2", {
             slidesPerView: 3,
             spaceBetween: 10,
             navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
+                nextEl: ".swiper3-next",
+                prevEl: ".swiper3-prev",
             },
         });
     </script>
@@ -295,31 +377,67 @@
                 <h4 class="font">베스트</h4>
                 <div class="swiper mySwiper3">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">Slide 1</div>
-                        <div class="swiper-slide">Slide 2</div>
-                        <div class="swiper-slide">Slide 3</div>
-                        <div class="swiper-slide">Slide 4</div>
-                        <div class="swiper-slide">Slide 5</div>
-                        <div class="swiper-slide">Slide 6</div>
-                        <div class="swiper-slide">Slide 7</div>
-                        <div class="swiper-slide">Slide 8</div>
-                        <div class="swiper-slide">Slide 9</div>
-                        <div class="swiper-slide">Slide 1</div>
-                        <div class="swiper-slide">Slide 2</div>
-                        <div class="swiper-slide">Slide 3</div>
-                        <div class="swiper-slide">Slide 4</div>
-                        <div class="swiper-slide">Slide 5</div>
-                        <div class="swiper-slide">Slide 6</div>
-                        <div class="swiper-slide">Slide 7</div>
-                        <div class="swiper-slide">Slide 8</div>
-                        <div class="swiper-slide">Slide 9</div>
+                        <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
                     </div>
                     <div class="swiper-pagination"></div>
                     </div>
             </div>
 
         <script>
-            var test_slide = new Swiper(".mySwiper3", {
+            var swiper5 = new Swiper(".mySwiper3", {
                 slidesPerView: 3,
                 grid: {
                     rows: 3,
@@ -342,30 +460,43 @@
                 <h4 class="font">지금, 리디에서만! 선 출간 신작</h4>
                 <div class="swiper new_item3">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">Slide 1</div>
-                        <div class="swiper-slide">Slide 2</div>
-                        <div class="swiper-slide">Slide 3</div>
-                        <div class="swiper-slide">Slide 4</div>
-                        <div class="swiper-slide">Slide 5</div>
-                        <div class="swiper-slide">Slide 6</div>
-                        <div class="swiper-slide">Slide 7</div>
-                        <div class="swiper-slide">Slide 8</div>
-                        <div class="swiper-slide">Slide 9</div>
+                        <div class="swiper-slide">
+                        <div class="box"></div>
                     </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    </div>
+                <div class="swiper-button-next swiper4-next"></div>
+                <div class="swiper-button-prev swiper4-prev"></div>
                 </div>
             </div>
 
-    </div>
-
     <script>
-        var swiper = new Swiper(".new_item3", {
+        var swiper6 = new Swiper(".new_item3", {
             slidesPerView: 6,
             spaceBetween: 10,
             navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
+                nextEl: ".swiper4-next",
+                prevEl: ".swiper4-prev",
             },
         });
     </script>
@@ -378,101 +509,176 @@
                 <h4 class="font">새로 나온 작품</h4>
                 <div class="swiper new_item4">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">Slide 1</div>
-                        <div class="swiper-slide">Slide 2</div>
-                        <div class="swiper-slide">Slide 3</div>
-                        <div class="swiper-slide">Slide 4</div>
-                        <div class="swiper-slide">Slide 5</div>
-                        <div class="swiper-slide">Slide 6</div>
-                        <div class="swiper-slide">Slide 7</div>
-                        <div class="swiper-slide">Slide 8</div>
-                        <div class="swiper-slide">Slide 9</div>
+                        <div class="swiper-slide">
+                        <div class="box"></div>
                     </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    </div>
+                <div class="swiper-button-next swiper5-next"></div>
+                <div class="swiper-button-prev swiper5-prev"></div>
                 </div>
             </div>
 
 
     <script>
-        var swiper = new Swiper(".new_item4", {
+        var swiper7 = new Swiper(".new_item4", {
             slidesPerView: 6,
             spaceBetween: 10,
             navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
+                nextEl: ".swiper5-next",
+                prevEl: ".swiper5-prev",
             },
         });
     </script>
-        <div class="box7"></div>
     </section>
 
 
     <section class="section8">
         <div class="box8">
             <h4 class="font">짧지만 강렬한 서사! 우주라이크소설</h4>
-            <div class="swiper new_item6">
+            <div class="swiper new_item5">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">Slide 1</div>
-                        <div class="swiper-slide">Slide 2</div>
-                        <div class="swiper-slide">Slide 3</div>
-                        <div class="swiper-slide">Slide 4</div>
-                        <div class="swiper-slide">Slide 5</div>
-                        <div class="swiper-slide">Slide 6</div>
-                        <div class="swiper-slide">Slide 7</div>
-                        <div class="swiper-slide">Slide 8</div>
-                        <div class="swiper-slide">Slide 9</div>
+                        <div class="swiper-slide">
+                        <div class="box"></div>
                     </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-                </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    </div>
+                <div class="swiper-button-next swiper6-next"></div>
+                <div class="swiper-button-prev swiper6-prev"></div>
             </div>
+        </div>
 
 
     <script>
-        var swiper = new Swiper(".new_item6", {
+        var swiper8 = new Swiper(".new_item5", {
             slidesPerView: 6,
             spaceBetween: 10,
             navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
+                nextEl: ".swiper6-next",
+                prevEl: ".swiper6-prev",
             },
         });
     </script>
-        <div class="box11"></div>
-    </section>
-        </div>
+
     </section>
 
 
     <section class="section9">
             <div class="box9">
                 <h4 class="font">이주의 셀렉트 인기도서 TOP 10</h4>
-                <div class="swiper new_item5">
+                <div class="swiper new_item6">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">Slide 1</div>
-                        <div class="swiper-slide">Slide 2</div>
-                        <div class="swiper-slide">Slide 3</div>
-                        <div class="swiper-slide">Slide 4</div>
-                        <div class="swiper-slide">Slide 5</div>
-                        <div class="swiper-slide">Slide 6</div>
-                        <div class="swiper-slide">Slide 7</div>
-                        <div class="swiper-slide">Slide 8</div>
-                        <div class="swiper-slide">Slide 9</div>
+                        <div class="swiper-slide">
+                        <div class="box"></div>
                     </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    </div>
+                <div class="swiper-button-next swiper7-next"></div>
+                <div class="swiper-button-prev swiper7-prev"></div>
                 </div>
             </div>
 
 
     <script>
-        var swiper = new Swiper(".new_item5", {
+        var swiper9 = new Swiper(".new_item6", {
             slidesPerView: 6,
             spaceBetween: 10,
             navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
+                nextEl: ".swiper7-next",
+                prevEl: ".swiper7-prev",
             },
         });
     </script>
@@ -483,7 +689,7 @@
     <section class="section10">
          <div class="box10">
             <h4 class="font">이벤트</h4>
-            <div class="swiper new_item2">
+            <div class="swiper new_item7">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">Slide 1</div>
                     <div class="swiper-slide">Slide 2</div>
@@ -495,20 +701,18 @@
                     <div class="swiper-slide">Slide 8</div>
                     <div class="swiper-slide">Slide 9</div>
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next swiper8-next"></div>
+                <div class="swiper-button-prev swiper8-prev"></div>
             </div>
         </div>
 
-    </div>
-
     <script>
-        var swiper = new Swiper(".new_item2", {
+        var swiper10 = new Swiper(".new_item7", {
             slidesPerView: 3,
             spaceBetween: 10,
             navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
+                nextEl: ".swiper8-next",
+                prevEl: ".swiper8-prev",
             },
         });
     </script>
@@ -518,35 +722,85 @@
     <section class="section11">
             <div class="box11">
                 <h4 class="font">지금, 리디에서만 볼 수 있는 도서</h4>
-                <div class="swiper new_item6">
+                <div class="swiper new_item8">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">Slide 1</div>
-                        <div class="swiper-slide">Slide 2</div>
-                        <div class="swiper-slide">Slide 3</div>
-                        <div class="swiper-slide">Slide 4</div>
-                        <div class="swiper-slide">Slide 5</div>
-                        <div class="swiper-slide">Slide 6</div>
-                        <div class="swiper-slide">Slide 7</div>
-                        <div class="swiper-slide">Slide 8</div>
-                        <div class="swiper-slide">Slide 9</div>
+                        <div class="swiper-slide">
+                        <div class="box"></div>
                     </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box"></div>
+                    </div>
+                    </div>
+                <div class="swiper-button-next swiper9-next"></div>
+                <div class="swiper-button-prev swiper9-prev"></div>
                 </div>
             </div>
 
 
-    <script>
-        var swiper = new Swiper(".new_item6", {
+    <scrip>
+        var swiper11 = new Swiper(".new_item8", {
             slidesPerView: 6,
             spaceBetween: 10,
             navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
+                nextEl: ".swiper9-next",
+                prevEl: ".swiper9-prev",
             },
         });
     </script>
-        <div class="box11"></div>
     </section>
 
     <hr>
@@ -592,6 +846,10 @@
             </div>
         </div>
     </footer>
+
+    
+
+
     
 </body>
 </html>
