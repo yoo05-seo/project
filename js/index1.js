@@ -34,8 +34,8 @@ async function bookData() {
             { query: 'NEW', sectionId: 'g' },
             { query: '소설', sectionId: 'h' },
             { query: '인기', sectionId: 'i' },
-            { query: '이벤트', sectionId: 'j'},
-            { query: 'Pink', sectionId: 'k'}
+            { query: '이벤트', sectionId: ''},
+            { query: 'Pink', sectionId: ''}
         ];
 
         for (const { query, sectionId } of querise ){
