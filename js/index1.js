@@ -29,7 +29,7 @@ async function bookData() {
             { query: '만화', sectionId: 'b' },
             { query: '웹툰', sectionId: 'c' },
             { query: '책', sectionId: 'd' },
-            { query: '자바스크립트', sectionId: 'e' },
+            { query: '프로그래밍', sectionId: 'e' },
             { query: '에세이', sectionId: 'f' },
             { query: 'NEW', sectionId: 'g' },
             { query: '소설', sectionId: 'h' },
