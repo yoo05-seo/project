@@ -45,6 +45,8 @@
 .box4 .swiper-slide {height: 230px; justify-content: flex-start; flex-direction: column;}
 .pick {position: absolute; width: 100px; height: 150px;z-index: 100;}
 .pick img {width: 100%; height: 100%;}
+.p1{margin-top: 20px; font-size: 15px; font-weight: 500%;}
+.p2{opacity: 0.4; font-size: 13px; margin-top: 10px;}
 
 
 
@@ -70,8 +72,11 @@
 
 .section10 {width: 1170px; height: 168px; margin: 0 auto;}
 .box10 .swiper-slide {height: 150px;}
+.img1{height: 100%;}
+.Ep{margin-top: 20px; font-size: 15px; color: #fff;}
 
 
 .section11 {width: 1170px; height: 403px; margin: 0 auto;}
 .box11 {margin-top: 30px;}
 .section11 .swiper-slide {height: 350px;}
+
