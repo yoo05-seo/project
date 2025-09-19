@@ -33,7 +33,9 @@ async function bookData() {
             { query: '에세이', sectionId: 'f' },
             { query: 'NEW', sectionId: 'g' },
             { query: '소설', sectionId: 'h' },
-            { query: '인기', sectionId: 'i' }
+            { query: '인기', sectionId: 'i' },
+            { query: '이벤트', sectionId: 'j'},
+            { query: 'Pink', sectionId: 'k'}
         ];
 
         for (const { query, sectionId } of querise ){

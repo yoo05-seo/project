@@ -31,8 +31,8 @@
 .section1 .swiper-slide {height: 350px;}
 
 
-.section2 {width: 1170px; height: 438px; margin: 0 auto;}
-.box2 {background-color: #fff;width: 1170px; height: 400px; margin-top: 20px;}
+.section2 {width: 1170px; height: 440px; margin: 0 auto;}
+.box2 {background-color: #fff; width: 1160px; height: 400px;}
 
 
 
@@ -46,8 +46,9 @@
 
 
 
-.section5 {width: 1170px; height: 438px; margin: 0 auto;}
-.box5 {background-color: #fff; width: 1170px; height: 430px;}
+
+.section5 {width: 1170px; height: 650px; margin: 0 auto;}
+.box5 {background-color: #fff; width: 1170px; height: 100%;}
 
 
 .section6 {width: 1170px; height: 403px; margin: 0 auto;}
